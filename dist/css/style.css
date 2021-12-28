@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url('../img/don2.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 80px;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar .container-fluid{
+   padding: 15px;
+}
+
+.header p:first-of-type{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.header p:last-of-type{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header button{
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin: 10px auto;
+    border: none;
+    background-color: red;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.grid .rows{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 10px;
+}
+.grid {
+    background-color: #EEE;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.grid span{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+    word-spacing: 5px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.grid .form h2{
+    color: red;
+    opacity: 0.9;
+    font-size:24px;
+}
+.grid .form button{
+    border: none;
+    background-color: gray;
+    color: #FFF;
+    padding: 9px;
+    border-radius: 50px;
+}
+.grid .form span i {
+    color: gray;
+    opacity: 0.9;
+}
+.grid .form p {
+    line-height: 1.7;
+    color: grey;
+    opacity: 0.9;;
+    font-weight: 100;
+}
+.who {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.who i {
+    color: red;
+    opacity: 0.9;
+    margin-bottom: 19px;;
+}
+.who h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: gray;
+}
+.who h3 {
+    border-bottom-color: red;
+    width: 20%;
+    height: 1px;
+    background-color: red;
+    margin: 0 auto;
+}
+.who p {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: grey;
+    opacity: 0.9;;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+/* responseve  */
+@media(max-width:767px){
+    .header .row p:first-of-type{
+        font-size: 30px;
+        color: #fff9;
+    }
+    .header .row p:last-of-type{
+        font-size: 20px;
+        color: #fff9;
+    }
+}
